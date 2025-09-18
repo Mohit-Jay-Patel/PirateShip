@@ -20,10 +20,10 @@ class Cannon{
         }
 
         push();
-        //translate(this.x,this.y);
+        translate(this.x,this.y);
         rotate(this.a);
         imageMode(CENTER);
-        image(this.cannon_top,this.x,this.y,this.w,this.h);
+        image(this.cannon_top,0,0,this.w,this.h);
         pop();
 
         image(this.cannon_base,70,27,200,200);
